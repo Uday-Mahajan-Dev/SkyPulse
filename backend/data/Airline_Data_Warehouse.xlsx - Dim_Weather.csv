@@ -1,0 +1,6 @@
+Departure_Conditions,Weather_ID
+Clear,1
+Rain,2
+Snow,3
+Storm,4
+Fog,5

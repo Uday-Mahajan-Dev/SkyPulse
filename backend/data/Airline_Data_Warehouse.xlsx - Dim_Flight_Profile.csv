@@ -1,0 +1,7 @@
+Class,Type_of_Travel,Flight_Profile_ID
+Eco Plus,Personal Travel,1
+Business,Business travel,2
+Eco,Personal Travel,3
+Eco,Business travel,4
+Eco Plus,Business travel,5
+Business,Personal Travel,6

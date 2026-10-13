@@ -1,0 +1,11 @@
+Origin_Airport_Code,Dest_Airport_Code,Flight_Type,Route_ID
+DEL,BOM,Domestic,1
+BOM,BLR,Domestic,2
+JFK,LHR,International,3
+DXB,LHR,International,4
+SFO,JFK,Domestic,5
+SIN,SYD,International,6
+FRA,JFK,International,7
+DEL,BLR,Domestic,8
+HND,LAX,International,9
+ORD,ATL,Domestic,10

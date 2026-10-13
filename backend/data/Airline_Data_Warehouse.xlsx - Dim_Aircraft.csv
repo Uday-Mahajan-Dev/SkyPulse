@@ -1,0 +1,9 @@
+Manufacturer,Model,Aircraft_Age_Years,Wifi_Type,Aircraft_ID
+Boeing,777-300ER,8,High-Speed,1
+Boeing,737-MAX,2,High-Speed,2
+Airbus,A320neo,3,High-Speed,3
+Airbus,A380,12,Basic,4
+Airbus,A350,4,High-Speed,5
+Boeing,787 Dreamliner,5,High-Speed,6
+Embraer,E190,10,Basic,7
+Boeing,737-800,15,Basic,8
