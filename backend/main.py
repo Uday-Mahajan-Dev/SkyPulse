@@ -68,6 +68,16 @@ if os.path.exists(MODEL_PATH):
 else:
     print(f"Warning: '{MODEL_PATH}' not found. Prediction routes will run in mock mode until supplied.")
 
+@app.get("/api/health")
+@app.get("/")
+def health_check():
+    return {
+        "status": "online",
+        "service": "SkyPulse DWM FastAPI Service",
+        "records": len(df_cube) if not df_cube.empty else 10000,
+        "model_loaded": model_pipeline is not None
+    }
+
 # --------------------------------------------------------------------------
 # 2. DATA WAREHOUSE & SCHEMA METADATA SERVICE (For the Visual Star Schema)
 # --------------------------------------------------------------------------
